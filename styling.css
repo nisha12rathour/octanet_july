@@ -1,0 +1,185 @@
+{
+    margin : 0;
+    padding : 0;
+    font-family: 'Trebuchet MS','Lucida Sans Unicode','Lucida Grande','Lucida Sans','Arial','sans-serif';
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    padding: 100%;
+}
+main{
+    width: 100%;
+    min-height:100vh;
+}
+.top{
+    width:100%;
+    min-height:60vh;
+    background-image: url(https://in.images.search.yahoo.com/search/images?p=images+unsplash&fr=mcafee&type=E210IN885G0&imgurl=http%3A%2F%2Fimages.unsplash.com%2Fphoto-1566264956500-0549ed17e161%3Fixlib%3Drb-1.2.1%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjEyMDd9#id=3&iurl=http%3A%2F%2Fimages.unsplash.com%2Fphoto-1566264956500-0549ed17e161%3Fixlib%3Drb-1.2.1%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjEyMDd9&action=click);
+    background-size: cover;
+    background-position: center;
+}.top .overrlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.284);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color: white;
+    bottom: 5%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+}
+.text .image{
+    background-image: url(https://www.istockphoto.com/photo/planet-earth-in-the-hands-of-a-man-against-the-background-of-the-lights-of-the-gm1869943345-552990776?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fimage&utm_medium=affiliate&utm_source=unsplash&utm_term=image%3A%3A%3A);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 220px;
+}
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+.rtext p{
+    font-size: 12px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+}
+.b1{
+    width: 30%;
+    min-height: inherit;
+    background-image: url(https://in.images.search.yahoo.com/images/view;_ylt=AwrKA0qX_oNmIbwAFsS9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkA2JmZWVmMzg0MThiZDFiYTllOGRkOGVhNTBmYmY0NGIwBGdwb3MDMQRpdANiaW5n?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dimages%26type%3DE210IN885G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D1&w=4000&h=2236&imgurl=www.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F08%2FNature-wallpapers-Full-HD-backgroud.jpg&rurl=https%3A%2F%2Fwww.fity.club%2Flists%2Fsuggestions%2Fver-hdfull%2F&size=1283.7KB&p=images&oid=bfeef38418bd1ba9e8dd8ea50fbf44b0&fr2=piv-web&fr=mcafee&tt=Ver+Hdfull&b=0&ni=21&no=1&ts=&tab=organic&sigr=m5WW0OixpiCM&sigb=E5MWcro4nSgK&sigi=NEdFxE8HeWdB&sigt=F82SR.u1wJCy&.crumb=3NzJM.VoFJ/&fr=mcafee&fr2=piv-web&type=E210IN885G0);
+    background-size: cover;
+    background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 30%;
+}
+.b1 p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+
+}
+.b2{
+    width: 30%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.b2 up{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://in.images.search.yahoo.com/search/images?p=images+unsplash&fr=mcafee&type=E210IN885G0&imgurl=http%3A%2F%2Fimages.unsplash.com%2Fphoto-1566264956500-0549ed17e161%3Fixlib%3Drb-1.2.1%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjEyMDd9#id=3&iurl=http%3A%2F%2Fimages.unsplash.com%2Fphoto-1566264956500-0549ed17e161%3Fixlib%3Drb-1.2.1%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjEyMDd9&action=click);
+    background-size: cover;
+    background-position: center;
+}
+.b2.up h1{
+    text-align: center;
+    padding: 30px;
+}
+.b2.up p{
+    color: white;
+    text-align: center;
+    padding: 15%;
+}
+.b2 .dowm{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+}
+.b2.down .overlay{
+    position: relative;
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgba(255, 255, 255, 0.344)
+}
+.b3{
+    width: 40%;
+    min-height: inherit;
+    background-image: url(https://in.images.search.yahoo.com/search/images?p=images+unsplash&fr=mcafee&type=E210IN885G0&imgurl=http%3A%2F%2Fimages.unsplash.com%2Fphoto-1566264956500-0549ed17e161%3Fixlib%3Drb-1.2.1%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjEyMDd9#id=3&iurl=http%3A%2F%2Fimages.unsplash.com%2Fphoto-1566264956500-0549ed17e161%3Fixlib%3Drb-1.2.1%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjEyMDd9&action=click);
+    background-size: cover;
+    background-position: center;
+}
+.b3 .overlay{
+    justify-content: right;
+    position: relative;
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    padding: 4vh 3vh;
+}
+.b3 .overlay p{
+    padding: 1.2vh;
+}
+@media(max-width:700px){
+    .rtext{
+        flex-direction: column;
+    }
+    .b3 .overlay{
+        width: 100%;
+        margin-left: initial;
+    }
+}
+@media(max-width:500px){
+    .text{
+        flex-direction:column;
+        align-items: flex-start;
+    }
+    .text h1{
+        font-size: 5vh;
+    }
+    .text .image{
+        height: 200px;
+        width: 140px;
+        margin-top: 20px;
+    }
+    .rtext{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rtext p{
+        margin-top: 10px;
+    }
+    .icons{
+        margin-top: 10px;
+
+    }
+    .bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .b1{
+        width: 100%;
+        min-height: 30vh;
+    }
+    .b2{
+        width: 100%;
+    }
+    .b2 up{
+        min-height: 30vh;
+    }
+    .b3{
+        width: 100%;
+        min-height: 30vh;
+        background-position: left;
+    }
+}
